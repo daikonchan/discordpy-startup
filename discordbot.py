@@ -2,7 +2,7 @@ from discord.ext import commands
 import os
 import traceback
 
-bot = commands.Bot(command_prefix=':')
+bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
 
 
@@ -14,7 +14,7 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def 大根ちゃん(ctx):
+async def daikon(ctx):
     await ctx.send('pythonだってプログラミングできちゃう天才なんだよなぁ...')
 
 
