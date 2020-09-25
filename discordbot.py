@@ -27,7 +27,7 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def login(ctx):
-    await ctx.send('')
+    await ctx.send('::login')
     
 
 
