@@ -15,7 +15,7 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def daikon(ctx):
-    await ctx.send('pythonだってプログラミングできちゃう天才なんだよなぁ...')
+    await ctx.send('pythonだって書けちゃう天才なんだよなぁ...')
 
 
 bot.run(token)
