@@ -28,6 +28,11 @@ async def role(ctx):
 @bot.command()
 async def 1(ctx):
     await ctx.send('1')
+    
+@bot.command()
+async def login(ctx):
+    await ctx.send('::login')
+    
 
 
 
