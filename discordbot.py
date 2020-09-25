@@ -15,7 +15,7 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def daikon(ctx):
-    await ctx.send('pythonだって書けちゃう天才なんだよなぁ...')
+    await ctx.send('大根ちゃんはpythonだって書けちゃう天才なんだよなぁ...')
     
     
 @bot.event
@@ -26,8 +26,8 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def lll(ctx):
-    await ctx.send('::login')
+async def yamaha(ctx):
+    await ctx.send('やまはさんはただのJS....')
     
 
 
