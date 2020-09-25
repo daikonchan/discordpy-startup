@@ -17,23 +17,6 @@ async def on_command_error(ctx, error):
 async def daikon(ctx):
     await ctx.send('pythonだって書けちゃう天才なんだよなぁ...')
     
-@bot.command()
-async def role(ctx):
-    await ctx.send('::role')
-   
-@bot.command()
-async def role(ctx):
-    await ctx.send('::role')
-
-@bot.command()
-async def 1(ctx):
-    await ctx.send('1')
-    
-@bot.command()
-async def login(ctx):
-    await ctx.send('::login')
-    
-
 
 
 bot.run(token)
