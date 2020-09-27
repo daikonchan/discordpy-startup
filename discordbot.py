@@ -15,7 +15,7 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def daikon(ctx):
-    await ctx.send('大根ちゃんはpythonだって書けちゃう天才なんだよなぁ...')
+    await ctx.send('大根ちゃんは出先でもコードが修正できちゃう天才なんだよなぁ...')
     
     
 @bot.event
@@ -52,6 +52,18 @@ async def on_command_error(ctx, error):
 @bot.command()
 async def pomuai(ctx):
     await ctx.send('おいおい純粋悪の悪口はやめとけよ、消されるぞ')
+
+
+@bot.event
+async def on_command_error(ctx, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+    await ctx.send(error_msg)
+
+
+@bot.command()
+async def kuruchan(ctx):
+    await ctx.send('くるちゃんのばーか')
 
     
 
