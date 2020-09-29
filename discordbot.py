@@ -63,7 +63,7 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def kuruchan(ctx):
-    await ctx.send('くるちゃんのばーか')
+    await ctx.send('ふごふごふごふごふごふご！ふごふご！！ふごっ！！ふごふご！！')
 
     
 
