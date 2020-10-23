@@ -66,6 +66,18 @@ async def kuruchan(ctx):
     await ctx.send('ふごふごふごふごふごふご！ふごふご！！ふごっ！！ふごふご！！')
    
 
+
+@bot.event
+async def on_command_error(ctx, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+    await ctx.send(error_msg)
+
+
+@bot.command()
+async def akira(ctx):
+    await ctx.send('基本散開  雷雲・ｻﾝﾀﾞｰｽﾄｰﾑ・ｽﾃｯﾌﾟﾄﾘｰﾀﾞｰ\nD3              D4  l 雲捨て：遠隔ヒラ\n      MT    ST       l  近接Tはナナメに走る')
+
     
 
 
