@@ -76,7 +76,7 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def akira(ctx):
-    await ctx.send('基本散開  雷雲・ｻﾝﾀﾞｰｽﾄｰﾑ・ｽﾃｯﾌﾟﾄﾘｰﾀﾞｰ\nD3              D4  l 雲捨て：遠隔ヒラ\n      MT    ST       l  近接Tはナナメに走る')
+    await ctx.send('#漆黒極')
 
     
 
