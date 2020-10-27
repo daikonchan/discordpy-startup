@@ -76,7 +76,7 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def akira(ctx):
-    await ctx.send('#漆黒極')
+    await ctx.send('漆黒極')
 
     
 
